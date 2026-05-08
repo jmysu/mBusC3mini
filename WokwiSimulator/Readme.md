@@ -1,6 +1,6 @@
 ## Wokwi simulation files folder.
 
-### Custom board:mBusC3mini_V2605
+### Custom board: _mBusC3mini_V2605_
 <img src= "./mBusC3mini_brd_5.svg">
 
 
