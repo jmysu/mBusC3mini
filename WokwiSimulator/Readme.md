@@ -1,4 +1,6 @@
 ## Wokwi simulation files folder.
+Create a new project, use F1 to load the custom board and start to simulate. [https://github.com/wokwi/wokwi-boards]
+
 
 ### Custom board: _mBusC3mini_V2605_
 <img src= "./mBusC3mini_brd_5.svg">
