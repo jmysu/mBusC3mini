@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "author": "Jimmy Su",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-custom-board",
+      "id": "C3mBusMini_V2605",
+      "top": -3.33,
+      "left": -2.12,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led",
+      "top": -13.2,
+      "left": -130.6,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 23.15,
+      "left": -96,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "C3mBusMini_V2605:TX21", "$serialMonitor:TX", "" ],
+    [ "C3mBusMini_V2605:RX20", "$serialMonitor:RX", "" ],
+    [ "c3mBusMini_V2605:1", "r1:1", "green", [ "h0" ] ],
+    [ "r1:2", "led1:C", "green", [ "v0.04", "h18.7" ] ],
+    [ "led:C", "C3mBusMini_V2605:GND.1", "black", [ "v57.6", "h134.27" ] ],
+    [ "led:A", "r1:1", "red", [ "v0" ] ],
+    [ "r1:2", "C3mBusMini_V2605:AD0", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "jimmy Su",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-custom-board",
+      "id": "c3mBusMini_V2605",
+      "top": -178.14,
+      "left": -532.77,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led-ring",
+      "id": "ring1",
+      "top": -344.96,
+      "left": -642.01,
+      "attrs": { "pixels": "16" }
+    }
+  ],
+  "connections": [
+    [ "c3mBusMini_V2605:TX21", "$serialMonitor:RX", ""],
+    [ "c3mBusMini_V2605:RX20", "$serialMonitor:TX", ""],
+    [ "c3mBusMini_V2605:$NEO_DO", "ring1:DIN", "green", [ "h-53.63", "v-7.17" ] ],
+    [ "ring1:VCC", "c3mBusMini_V2605:3V3", "red", [ "v0" ] ],
+    [ "ring1:DIN", "c3mBusMini_V2605:3", "green", [ "v9.88", "h173.04", "v91.33" ] ],
+    [ "ring1:GND", "c3mBusMini_V2605:GND.1", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
