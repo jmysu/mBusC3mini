@@ -2,7 +2,7 @@
 
 PlatformIO projects...
 
-with Arduino library V2! (might need some changes for V3...)
+with Arduino library V2! (Need some migration changes for V3...)
 
 -----
 
