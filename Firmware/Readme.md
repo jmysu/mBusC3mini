@@ -1,7 +1,7 @@
 ## Firmware files folder
 
 PlatformIO projects...
-
+with Arduino library V2! (might need some changes for V3...)
 -----
 
 
