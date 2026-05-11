@@ -10,4 +10,4 @@ mBusC3mini design files...
 
 
 <img src= "./mBusC3mini_2605.KiCad3D.png" width=400> 
-[link](https://github.com/jmysu/mBusC3mini/blob/main/Hardware/mBusC3mini_2605_Sch.pdf) mBusC3mini_2605 Schematic <br>
+[mBusC3mini_2605 Schematic](https://github.com/jmysu/mBusC3mini/blob/main/Hardware/mBusC3mini_2605_Sch.pdf)  <br>
