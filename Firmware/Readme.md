@@ -15,3 +15,11 @@ with Arduino library V2! (Need some migration changes for V3...)
 
 ### CLI, TinyBasicPlus
 <img src= "./mBusV1_tbp.png" width=800>
+
+
+---
+## References
+  - [Quick EspNOW](https://github.com/gmag11/QuickESPNow) A wireless protocol that allows devices links without AP.
+  - [TinyBasic+](https://github.com/BleuLlama/TinyBasicPlus) A C implementation of Tiny Basic. <br>
+  - [TinyBasic WiKi](https://en.wikipedia.org/wiki/Tiny_BASIC) TinyBasic Wikipedia page. <br>
+
