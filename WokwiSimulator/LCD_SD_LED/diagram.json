@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-custom-board", "id": "esp", "top": -43.69, "left": -78.92, "attrs": {} },
+    { "type": "wokwi-ili9341", "id": "lcd1", "top": -383.2, "left": -96.3, "attrs": {} },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": -86.17, "left": -259.13, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX21", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX20", "$serialMonitor:TX", "", [] ],
+    [ "sd1:VCC", "esp:3V3", "red", [ "h144", "v16.39" ] ],
+    [ "sd1:GND", "esp:GND.1", "black", [ "h134.4", "v45.39" ] ],
+    [ "esp:CS10", "sd1:CS", "green", [ "h-116.79", "v42.26" ] ],
+    [ "esp:SO6", "sd1:DI", "gold", [ "h-145.59", "v13" ] ],
+    [ "esp:SI5", "sd1:DO", "blue", [ "h-97.59", "v-44.83" ] ],
+    [ "esp:SK4", "sd1:SCK", "white", [ "h0" ] ],
+    [ "lcd1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "lcd1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "lcd1:SCK", "esp:SK4", "white", [ "v0" ] ],
+    [ "lcd1:MOSI", "esp:SO6", "gold", [ "v0" ] ],
+    [ "lcd1:D/C", "esp:1", "gray", [ "v0" ] ],
+    [ "lcd1:CS", "esp:3", "green", [ "v0" ] ]
+  ],
+  "serialMonitor": { "convertEol": false, "display": "auto", "newline": "lf" },
+  "dependencies": {}
+}
