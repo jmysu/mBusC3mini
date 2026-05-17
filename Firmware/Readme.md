@@ -19,7 +19,7 @@ with Arduino library V2! (Need some migration changes for V3...)
 
 ---
 ## References
-  - [Commander Wiki](https://github.com/CreativeRobotics/Commander/wiki) Arduino Commander CLI Wiki.
+  - [Commander WiKi](https://github.com/CreativeRobotics/Commander/wiki) Arduino Commander CLI WiKi.
   - [Quick EspNOW](https://github.com/gmag11/QuickESPNow) A wireless protocol that allows devices links without AP.
   - [TinyBasic+](https://github.com/BleuLlama/TinyBasicPlus) A C implementation of Tiny Basic. <br>
   - [TinyBasic WiKi](https://en.wikipedia.org/wiki/Tiny_BASIC) TinyBasic Wikipedia page. <br>
