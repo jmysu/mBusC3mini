@@ -14,7 +14,7 @@ Create a new project, use F1 to load the custom board and start to simulate. [ht
 <img src= "./Neopixel/Wokwi mBusC3min2605_neo3.png" width=240>  <img src= "./Neopixel/Wokwi mBusC3min2605_neo3_pause.png" width=400> 
 
 ### SPI SdCard
-<img src= "./SdCard/mBusC3MiniV2605_SdCard_Test.png" width=400>
+<img src= "./SdCard/mBusC3MiniV2605_SdCard_Test.png" width=600>
 
 ### SPI LCD+SdCard+LED
-<img src= "./LCD_SD_LED/mBusC3minV2605_LCD_SD_LED.png" width=600>
+<img src= "./LCD_SD_LED/mBusC3minV2605_LCD_SD_LED.png" width=800>
