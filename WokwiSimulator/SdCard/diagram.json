@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Rahmat Triwibowo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-custom-board", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": 0.23, "left": -230.33, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX21", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX20", "$serialMonitor:TX", "", [] ],
+
+    [ "sd1:VCC", "esp:3V3", "red", [ "h144", "v16.39" ] ],
+    [ "sd1:GND", "esp:GND.1", "black", [ "h134.4", "v45.39" ] ],
+    [ "esp:CS10", "sd1:CS", "green", [ "h-116.79", "v42.26" ] ],
+    [ "esp:SO6", "sd1:DI", "gold", [ "h-145.59", "v13" ] ],
+    [ "esp:SI5", "sd1:DO", "blue", [ "h-97.59", "v-44.83" ] ],
+    [ "esp:SK4", "sd1:SCK", "white", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
