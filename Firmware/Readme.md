@@ -14,4 +14,4 @@ with Arduino library V2! (Need some migration changes for V3...)
 <img src= "./mBusC3mini_CLI.png" width=450>  <img src= "./mBusC3mini_ESPnow.png" width=450>
 
 ### CLI, TinyBasicPlus
-<img src= "./mBusV1_tbp.png" width=600>
+<img src= "./mBusV1_tbp.png" width=800>
